@@ -41,3 +41,10 @@ p.distinto{
 }
 */
 
+/* Background */
+body{
+    background: linear-gradient(90deg, #fff 0%, red 50%, blue 100%);
+    background-image:url(/assets/img/kb.jpg);
+}
+
+
