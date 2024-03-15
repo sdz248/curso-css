@@ -41,10 +41,93 @@ p.distinto{
 }
 */
 
-/* Background */
+/* BACKGROUND 
 body{
     background: linear-gradient(90deg, #fff 0%, red 50%, blue 100%);
     background-image:url(/assets/img/kb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position:inherit;
+    background-attachment: fixed; el background te sigue queda fijo 
+    SHORTHAND
+    background: rebeccapurple url(/assets/img/basquet.jpg) fixed no-repeat top;
+    background-size: contain;
+}
+*/
+
+/* BORDES
+
+.dotted {
+     SHORTHAND 
+     border: 7px dotted aqua; 
+     border: aqua dotted 1px; 
+     border-top: 10px dotted aqua;
+     border-style: dotted;
+     border-color: aqua;
+     border-width: 7px; 
 }
 
+.dashed {
+    border-style: dashed;
+    border-color: red;
+    border-width: 7px;
+}
 
+.solid {
+    border-style: solid;
+    border-color: green;
+    border-width: 7px;
+    border-radius: 10px;
+}
+
+.double {
+    border-style: double;
+    border-color: firebrick;
+    border-width: 7px;
+}
+
+.groove {
+    border-style: groove;
+    border-color: tomato;
+    border-width: 7px;
+}
+
+.ridge {
+    border-style: ridge;
+    border-color: orange;
+    border-width: 7px;
+}
+
+.inset {
+    border-style: inset;
+     border-color: black;
+    border-width: 7px; 
+    border-left-color: violet;
+    border-left-width: 5px;
+}
+
+.outset {
+    border-style: outset;
+    border-color: cornflowerblue;
+    border-width: 7px;
+}
+
+.none {
+    border-style: none;
+    border-color: aqua;
+    border-width: 7px;
+
+}
+
+.hidden {
+    border-style: hidden;
+    border-color: aqua;
+    border-width: 7px;
+}
+
+.mix {
+    border-style: dotted ridge double;
+    border-color: silver;
+    border-width: 7px;
+}
+*/
