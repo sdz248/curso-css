@@ -130,8 +130,9 @@ body{
     border-color: silver;
     border-width: 7px;
 }
+/*
 
-/* MARGIN */
+/* MARGIN 
 .caja1{
     height: 300px;
     width: 300px;
@@ -143,9 +144,10 @@ body{
     margin-left: 50px;
     /*SHORTHAND
      margin: 100px;
-    */
+    
 }
-/* PADDING */
+
+/* PADDING 
 .caja2{
     height: 300px;
     width: 300px;
@@ -153,9 +155,67 @@ body{
     background-color: aqua;
     /*SHORTHAND
      padding: 50px;
-    */
+    
     padding-top: 70px;
     padding-right: 10px;
     padding-bottom: 30px;
     padding-left: 25px;
 }
+*/
+
+/* TEXTO */
+/* .overline{
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
+
+.line-through{
+    text-decoration-line: line-through;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+} */
+
+/* .underline{
+    /*SHORTHAND
+    text-decoration: underline red wavy 5px;
+    /* text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy; 
+    
+} */
+
+/* .text_transform{
+    text-transform: capitalize; Cada primer letra de cada palabra la transforma a mayuscula
+    text-indent: 40px; Le da sangria al texto
+    letter-spacing: 5px; Espacio entre letras
+    line-height: 0.5; Espaciado entre lineas 
+    white-space: nowrap; No respeta el ancho de la caja padre
+    text-shadow: 2px 2px 5px red; (horizontal derecha desenfoque color)
+    
+} 
+
+ FUENTES
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em; otras medidas: 15px, o 5vw 5% del viewport 
+}
+
+LISTAS
+
+ul{
+    list-style: armenian; 
+    list-style-image: url(/assets/img/goku.png); 
+    background-color: black;
+    padding: 20px;
+}
+li{
+    color: brown;
+    background-color: grey;
+    padding: 5px;
+    margin: 5px;
+}
+*/
