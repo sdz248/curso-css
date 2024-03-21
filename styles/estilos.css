@@ -218,4 +218,70 @@ li{
     padding: 5px;
     margin: 5px;
 }
+
+TABLAS
+
+tr,td{
+    border: 2px solid red;
+    width: 150px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    background-color: aqua;
+}
+th{
+    border: 1px solid red;
+}
+.columna1{
+    width: 200px;
+    border: 2px solid red;
+    background-color: black;
+}
+tr:hover{
+    background-color: blueviolet;
+}
+
+DISPLAY Y VISIBILITY
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    visibility: hidden;
+}
+.element1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 110, 255);
+    border: 2px solid black
+}
+.element2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 145, 0);
+    border: 2px solid black;
+    display: none;
+}
+.element3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 119);
+    border: 2px solid black;
+    display: block;
+}
 */
