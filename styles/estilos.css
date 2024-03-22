@@ -39,8 +39,8 @@ p.distinto{
     text-align: end;
     font-size: large;
 }
+                               ---------------------------------------
 */
-
 /* BACKGROUND 
 body{
     background: linear-gradient(90deg, #fff 0%, red 50%, blue 100%);
@@ -53,8 +53,8 @@ body{
     background: rebeccapurple url(/assets/img/basquet.jpg) fixed no-repeat top;
     background-size: contain;
 }
+                        --------------------------------------- 
 */
-
 /* BORDES
 
 .dotted {
@@ -130,6 +130,7 @@ body{
     border-color: silver;
     border-width: 7px;
 }
+                                                 ---------------------------------------
 /*
 
 /* MARGIN 
@@ -161,6 +162,7 @@ body{
     padding-bottom: 30px;
     padding-left: 25px;
 }
+        ------------------------------------------------------------------------------------------
 */
 
 /* TEXTO */
@@ -203,7 +205,7 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em; otras medidas: 15px, o 5vw 5% del viewport 
 }
-
+--------------------------------------------------------------------------------------------------
 LISTAS
 
 ul{
@@ -241,7 +243,7 @@ th{
 tr:hover{
     background-color: blueviolet;
 }
-
+----------------------------------------------------------------------------------------
 DISPLAY Y VISIBILITY
 
 .box1{
@@ -284,4 +286,97 @@ DISPLAY Y VISIBILITY
     border: 2px solid black;
     display: block;
 }
+--------------------------------------------------------------------------------------------
+POSITION(static(por default), relative, fixed, absolute)
+
+.contenedor{
+    border: 2px solid red;
+    position: fixed; Pega el elemento en las coordenadas dadas,queda pegado a la pantalla
+    position: absolute; A diferencia de fixed, con el valor absolute queda pegado a la posicion del documento. Se puede superponer con otros elementos
+    bottom: 0;
+    right: 0; 
+    position: sticky;Tiene una posicon puntual pero cuando uno llega el scroll lo arrastra
+    top: 15px;
+    background-color: aqua;
+}
+
+.posicion{
+    position: relative; Con este valor puedo mover el elemento
+     left: 50px;
+    top: 30px;
+    bottom: 15px;
+    right: 50px; 
+}
+
+CENTRADO DE TEXTO EN IMAGEN
+
+.container{
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+Z-INDEX
+
+h1{
+    position: absolute;
+    top: 50px;
+    font-size: 80px;
+     z-index: -1; Le da profundidad al h1 
+}
+
+.goku_adelante{
+    position: relative;
+     z-index: 1; posiciona el h1 por delante 
+}
+-----------------------------------------------------------------------------
+OVERFLOW
+
+.over{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    /* overflow: auto; 
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+--------------------------------------------------------------------------------
+FLOAT
+.prueba_float{
+    padding-right: 100px;
+    float: left;
+}
+--------------------------------------------------------------------------------------------
+COMBINACION DE SELECTORES
+
+DESCENDIENTE
+
+div p {
+    background-color: aqua;
+}
+CHILD SELECTOR
+div>p {
+    background-color: aqua;
+}
+ HERMANO ADYACENTE SIMBOLO + 
+div+p{
+    background-color: crimson;
+}
+ SELECCION GENERAL DE HERMANOS 
+div~p{
+    background-color: chartreuse;
+}
+--------------------------------------------------------------------------------------------
 */
